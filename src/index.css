@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #E5E5E5;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
+}
+
+.container {
+  background: white;
+  width: 550px;
+}
+
+nav {
+  background-color: red;
+  max-width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14.46px;
+  font-weight: 500;
+  color: white;
+}
+
+nav i {
+  margin-right: 10px;
+  color:#DADADA;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  position: relative;
+  margin: 45px 40px;
+}
+
+.main--details{
+  position: absolute;
+  top: 0px;
+  left: 140px;
+}
+
+.main--location {
+  display: flex;
+  align-items: center;
+}
+
+.main--location-marker {
+  height: 10px;
+  margin-right: 4px;
+}
+
+
+.main--location p {
+  color: #2B283A;
+  font-size: 10px;
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+}
+
+.main--location a {
+  color: #918E9B;
+  font-size: 10px;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 25px;
+}
+
+.main--date {
+  font-weight: 700;
+  font-size: 10px;
+  color: #2B283A;
+}
+
+.main--description {
+  font-size: 10px;
+  color: #2B283A;
+  line-height: 150%;
+}
